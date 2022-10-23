@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    var game = GameController()
+    
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var weigthLabel: UILabel!
     @IBOutlet weak var heightLabel: UILabel!
@@ -26,7 +28,7 @@ class ViewController: UIViewController {
         nameLabel.text = GameController.pet.getName()
         weigthLabel.text = "Weight: \(GameController.pet.getWeight()) kg"
         heightLabel.text = "Height: \(GameController.pet.getHeight()) cm"
-        moneyLabel.text = String(GameController.getMoney())
+        moneyLabel.text = String(game.getMoney())
         
     }
 

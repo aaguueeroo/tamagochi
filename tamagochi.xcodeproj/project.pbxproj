@@ -108,14 +108,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A326ECCA28F37757004355EB /* objects */ = {
+		A326ECCA28F37757004355EB /* models */ = {
 			isa = PBXGroup;
 			children = (
 				A326ECCD28F377E0004355EB /* Pet.swift */,
 				A326ECD128F37C29004355EB /* Apariencia.swift */,
 				A3DE750D29048DEE00387734 /* GameController.swift */,
 			);
-			path = objects;
+			path = models;
 			sourceTree = "<group>";
 		};
 		A326ECD328F3FFA9004355EB /* assets */ = {
@@ -154,7 +154,7 @@
 			children = (
 				A3C48B9E28F47F08000B3762 /* controllers */,
 				A326ECD328F3FFA9004355EB /* assets */,
-				A326ECCA28F37757004355EB /* objects */,
+				A326ECCA28F37757004355EB /* models */,
 				A3734B1828F36C2700DB95AA /* AppDelegate.swift */,
 				A3734B1A28F36C2700DB95AA /* SceneDelegate.swift */,
 				A3734B1E28F36C2700DB95AA /* Main.storyboard */,

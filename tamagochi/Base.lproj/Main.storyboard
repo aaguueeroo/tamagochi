@@ -172,7 +172,7 @@
                 <tapGestureRecognizer id="xGE-IY-2aE" userLabel="Fork Gesture Recognizer">
                     <connections>
                         <action selector="onTapFood:" destination="BYZ-38-t0r" id="uj5-84-jt6"/>
-                        <segue destination="uPP-A5-Vqd" kind="show" id="2ok-HQ-uTN"/>
+                        <segue destination="uPP-A5-Vqd" kind="show" identifier="toFoodScene" id="2ok-HQ-uTN"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="RyA-ia-8x7" userLabel="Bulb Gesture Recognizer">

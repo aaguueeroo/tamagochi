@@ -10,10 +10,7 @@ import Foundation
 class GameController {
     
     static var pet = Pet()
-    private var money: Int = 10 {
-        get { return money }
-        set { money = new}
-    }
+    private var money: Int = 10
     
     //CONSTRUCTOR
     init(money: Int = 10) {

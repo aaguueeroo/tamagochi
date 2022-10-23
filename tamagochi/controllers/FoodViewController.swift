@@ -15,6 +15,7 @@ class FoodViewController: UIViewController, UITableViewDelegate, UITableViewData
     override func viewDidLoad() {
         foodTableView.delegate = self
         foodTableView.dataSource = self
+        updateProgressBar()
         Timer.scheduledTimer(withTimeInterval: 10, repeats: true) { [self] _ in
             updateProgressBar()
         }
