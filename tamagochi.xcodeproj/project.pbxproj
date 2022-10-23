@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A326ECCE28F377E0004355EB /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A326ECCD28F377E0004355EB /* Pet.swift */; };
+		A326ECD228F37C29004355EB /* Apariencia.swift in Sources */ = {isa = PBXBuildFile; fileRef = A326ECD128F37C29004355EB /* Apariencia.swift */; };
+		A326ECD528F3FFD6004355EB /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = A326ECD428F3FFD6004355EB /* cat.png */; };
+		A360975428F4B6AA001465ED /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A360975328F4B6AA001465ED /* data.swift */; };
 		A3734B1928F36C2700DB95AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3734B1828F36C2700DB95AA /* AppDelegate.swift */; };
 		A3734B1B28F36C2700DB95AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3734B1A28F36C2700DB95AA /* SceneDelegate.swift */; };
 		A3734B1D28F36C2700DB95AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3734B1C28F36C2700DB95AA /* ViewController.swift */; };
@@ -16,6 +20,18 @@
 		A3734B3028F36C2900DB95AA /* tamagochiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3734B2F28F36C2900DB95AA /* tamagochiTests.swift */; };
 		A3734B3A28F36C2900DB95AA /* tamagochiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3734B3928F36C2900DB95AA /* tamagochiUITests.swift */; };
 		A3734B3C28F36C2900DB95AA /* tamagochiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3734B3B28F36C2900DB95AA /* tamagochiUITestsLaunchTests.swift */; };
+		A3C48BA028F47F47000B3762 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C48B9F28F47F47000B3762 /* FoodViewController.swift */; };
+		A3DE750E29048DEE00387734 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DE750D29048DEE00387734 /* GameController.swift */; };
+		A3DE751029053DD400387734 /* coin.png in Resources */ = {isa = PBXBuildFile; fileRef = A3DE750F29053DD400387734 /* coin.png */; };
+		A3FEACD528FCC2370075C40A /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FEACD428FCC2370075C40A /* FoodTableViewCell.swift */; };
+		A3FEACDF28FCC7CB0075C40A /* Pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = A3FEACD728FCC7CB0075C40A /* Pizza.png */; };
+		A3FEACE028FCC7CB0075C40A /* Water.png in Resources */ = {isa = PBXBuildFile; fileRef = A3FEACD828FCC7CB0075C40A /* Water.png */; };
+		A3FEACE128FCC7CB0075C40A /* Milk.png in Resources */ = {isa = PBXBuildFile; fileRef = A3FEACD928FCC7CB0075C40A /* Milk.png */; };
+		A3FEACE228FCC7CB0075C40A /* Bacon.png in Resources */ = {isa = PBXBuildFile; fileRef = A3FEACDA28FCC7CB0075C40A /* Bacon.png */; };
+		A3FEACE328FCC7CB0075C40A /* Chicken.png in Resources */ = {isa = PBXBuildFile; fileRef = A3FEACDB28FCC7CB0075C40A /* Chicken.png */; };
+		A3FEACE428FCC7CB0075C40A /* Lobster.png in Resources */ = {isa = PBXBuildFile; fileRef = A3FEACDC28FCC7CB0075C40A /* Lobster.png */; };
+		A3FEACE528FCC7CB0075C40A /* Fish.png in Resources */ = {isa = PBXBuildFile; fileRef = A3FEACDD28FCC7CB0075C40A /* Fish.png */; };
+		A3FEACE628FCC7CB0075C40A /* Treat.png in Resources */ = {isa = PBXBuildFile; fileRef = A3FEACDE28FCC7CB0075C40A /* Treat.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +52,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A326ECCD28F377E0004355EB /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		A326ECD128F37C29004355EB /* Apariencia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Apariencia.swift; path = tamagochi/objects/Apariencia.swift; sourceTree = SOURCE_ROOT; };
+		A326ECD428F3FFD6004355EB /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		A360975328F4B6AA001465ED /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
 		A3734B1528F36C2700DB95AA /* tamagochi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tamagochi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3734B1828F36C2700DB95AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3734B1A28F36C2700DB95AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +69,18 @@
 		A3734B3528F36C2900DB95AA /* tamagochiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tamagochiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3734B3928F36C2900DB95AA /* tamagochiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tamagochiUITests.swift; sourceTree = "<group>"; };
 		A3734B3B28F36C2900DB95AA /* tamagochiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tamagochiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A3C48B9F28F47F47000B3762 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		A3DE750D29048DEE00387734 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		A3DE750F29053DD400387734 /* coin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coin.png; sourceTree = "<group>"; };
+		A3FEACD428FCC2370075C40A /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		A3FEACD728FCC7CB0075C40A /* Pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pizza.png; sourceTree = "<group>"; };
+		A3FEACD828FCC7CB0075C40A /* Water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Water.png; sourceTree = "<group>"; };
+		A3FEACD928FCC7CB0075C40A /* Milk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Milk.png; sourceTree = "<group>"; };
+		A3FEACDA28FCC7CB0075C40A /* Bacon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bacon.png; sourceTree = "<group>"; };
+		A3FEACDB28FCC7CB0075C40A /* Chicken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chicken.png; sourceTree = "<group>"; };
+		A3FEACDC28FCC7CB0075C40A /* Lobster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lobster.png; sourceTree = "<group>"; };
+		A3FEACDD28FCC7CB0075C40A /* Fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fish.png; sourceTree = "<group>"; };
+		A3FEACDE28FCC7CB0075C40A /* Treat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Treat.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +108,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A326ECCA28F37757004355EB /* objects */ = {
+			isa = PBXGroup;
+			children = (
+				A326ECCD28F377E0004355EB /* Pet.swift */,
+				A326ECD128F37C29004355EB /* Apariencia.swift */,
+				A3DE750D29048DEE00387734 /* GameController.swift */,
+			);
+			path = objects;
+			sourceTree = "<group>";
+		};
+		A326ECD328F3FFA9004355EB /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				A3DE750F29053DD400387734 /* coin.png */,
+				A3FEACD628FCC7720075C40A /* food */,
+				A326ECD428F3FFD6004355EB /* cat.png */,
+				A360975328F4B6AA001465ED /* data.swift */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
 		A3734B0C28F36C2700DB95AA = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +152,11 @@
 		A3734B1728F36C2700DB95AA /* tamagochi */ = {
 			isa = PBXGroup;
 			children = (
+				A3C48B9E28F47F08000B3762 /* controllers */,
+				A326ECD328F3FFA9004355EB /* assets */,
+				A326ECCA28F37757004355EB /* objects */,
 				A3734B1828F36C2700DB95AA /* AppDelegate.swift */,
 				A3734B1A28F36C2700DB95AA /* SceneDelegate.swift */,
-				A3734B1C28F36C2700DB95AA /* ViewController.swift */,
 				A3734B1E28F36C2700DB95AA /* Main.storyboard */,
 				A3734B2128F36C2900DB95AA /* Assets.xcassets */,
 				A3734B2328F36C2900DB95AA /* LaunchScreen.storyboard */,
@@ -125,6 +180,31 @@
 				A3734B3B28F36C2900DB95AA /* tamagochiUITestsLaunchTests.swift */,
 			);
 			path = tamagochiUITests;
+			sourceTree = "<group>";
+		};
+		A3C48B9E28F47F08000B3762 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A3734B1C28F36C2700DB95AA /* ViewController.swift */,
+				A3C48B9F28F47F47000B3762 /* FoodViewController.swift */,
+				A3FEACD428FCC2370075C40A /* FoodTableViewCell.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		A3FEACD628FCC7720075C40A /* food */ = {
+			isa = PBXGroup;
+			children = (
+				A3FEACDA28FCC7CB0075C40A /* Bacon.png */,
+				A3FEACDB28FCC7CB0075C40A /* Chicken.png */,
+				A3FEACDD28FCC7CB0075C40A /* Fish.png */,
+				A3FEACDC28FCC7CB0075C40A /* Lobster.png */,
+				A3FEACD928FCC7CB0075C40A /* Milk.png */,
+				A3FEACD728FCC7CB0075C40A /* Pizza.png */,
+				A3FEACDE28FCC7CB0075C40A /* Treat.png */,
+				A3FEACD828FCC7CB0075C40A /* Water.png */,
+			);
+			path = food;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +311,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3FEACE628FCC7CB0075C40A /* Treat.png in Resources */,
+				A3FEACE528FCC7CB0075C40A /* Fish.png in Resources */,
 				A3734B2528F36C2900DB95AA /* LaunchScreen.storyboard in Resources */,
+				A326ECD528F3FFD6004355EB /* cat.png in Resources */,
+				A3FEACDF28FCC7CB0075C40A /* Pizza.png in Resources */,
+				A3FEACE428FCC7CB0075C40A /* Lobster.png in Resources */,
+				A3FEACE028FCC7CB0075C40A /* Water.png in Resources */,
 				A3734B2228F36C2900DB95AA /* Assets.xcassets in Resources */,
 				A3734B2028F36C2700DB95AA /* Main.storyboard in Resources */,
+				A3FEACE328FCC7CB0075C40A /* Chicken.png in Resources */,
+				A3DE751029053DD400387734 /* coin.png in Resources */,
+				A3FEACE128FCC7CB0075C40A /* Milk.png in Resources */,
+				A3FEACE228FCC7CB0075C40A /* Bacon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +349,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3734B1D28F36C2700DB95AA /* ViewController.swift in Sources */,
+				A3C48BA028F47F47000B3762 /* FoodViewController.swift in Sources */,
+				A326ECCE28F377E0004355EB /* Pet.swift in Sources */,
 				A3734B1928F36C2700DB95AA /* AppDelegate.swift in Sources */,
+				A3DE750E29048DEE00387734 /* GameController.swift in Sources */,
+				A326ECD228F37C29004355EB /* Apariencia.swift in Sources */,
 				A3734B1B28F36C2700DB95AA /* SceneDelegate.swift in Sources */,
+				A360975428F4B6AA001465ED /* data.swift in Sources */,
+				A3FEACD528FCC2370075C40A /* FoodTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,11 +536,14 @@
 				DEVELOPMENT_TEAM = 9J4CLU75C6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = tamagochi/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.kids-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,9 +551,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aguero.tamagochi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -468,11 +570,14 @@
 				DEVELOPMENT_TEAM = 9J4CLU75C6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = tamagochi/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.kids-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,9 +585,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aguero.tamagochi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
